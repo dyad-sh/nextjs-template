@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dyad-sh/nextjs-webpack-component-tagger": "0.8.0-alpha.1",
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
@@ -59,6 +58,7 @@
     "zod": "^3.25.28"
   },
   "devDependencies": {
+    "@dyad-sh/nextjs-webpack-component-tagger": "^0.8.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

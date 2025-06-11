@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@dyad-sh/nextjs-webpack-component-tagger':
-        specifier: 0.8.0-alpha.1
-        version: 0.8.0-alpha.1(webpack@5.99.9)
       '@hookform/resolvers':
         specifier: ^5.0.1
         version: 5.0.1(react-hook-form@7.56.4(react@19.1.0))
@@ -153,6 +150,9 @@ importers:
         specifier: ^3.25.28
         version: 3.25.28
     devDependencies:
+      '@dyad-sh/nextjs-webpack-component-tagger':
+        specifier: ^0.8.0
+        version: 0.8.0(webpack@5.99.9)
       '@types/node':
         specifier: ^20
         version: 20.17.50
@@ -199,8 +199,8 @@ packages:
     resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
     engines: {node: '>=6.9.0'}
 
-  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0-alpha.1':
-    resolution: {integrity: sha512-BBCzQolVGHwWOgxe3Dc25wlkxOut5XJTDWADXs6cv8ZnIadO4SuXv5Re0dzeDob2eOpAztlnjk7SI2uaiOZBKA==}
+  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0':
+    resolution: {integrity: sha512-gWG2jdC9+f2fzlxBH4jrUunHObTgfNR1a6YZv9xHuTSC+IQmEtNKIYO220LViQv/Enjnr6xWdRHLcoaAxSZXgg==}
     peerDependencies:
       webpack: ^5.0.0
 
@@ -2105,7 +2105,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0-alpha.1(webpack@5.99.9)':
+  '@dyad-sh/nextjs-webpack-component-tagger@0.8.0(webpack@5.99.9)':
     dependencies:
       '@babel/parser': 7.27.5
       estree-walker: 2.0.2
