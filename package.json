@@ -62,13 +62,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
+    "postcss": "^8.5.23",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
   "pnpm": {
     "overrides": {
-      "glob@10.4.5>minimatch": "9.0.7"
+      "glob@10.4.5>minimatch": "9.0.7",
+      "next@15.5.28>postcss": "8.5.23"
     }
   }
 }
