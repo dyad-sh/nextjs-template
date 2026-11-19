@@ -69,7 +69,7 @@
   "pnpm": {
     "overrides": {
       "glob@10.4.5>minimatch": "9.0.7",
-      "recharts@2.15.3>lodash": "4.18.0"
+      "recharts@2.15.3>lodash": "4.18.1"
     }
   }
 }
