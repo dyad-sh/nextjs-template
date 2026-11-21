@@ -68,7 +68,9 @@
   },
   "pnpm": {
     "overrides": {
-      "glob@10.4.5>minimatch": "9.0.7"
+      "glob@10.4.5>minimatch": "9.0.7",
+      "postcss@8.4.31>nanoid": "3.3.18",
+      "postcss@8.5.3>nanoid": "3.3.18"
     }
   }
 }
