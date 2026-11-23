@@ -68,9 +68,7 @@
   },
   "pnpm": {
     "overrides": {
-      "glob@10.4.5>minimatch": "9.0.7",
-      "postcss@8.4.31>source-map-js": "1.2.2",
-      "postcss@8.5.3>source-map-js": "1.2.2"
+      "glob@10.4.5>minimatch": "9.0.7"
     }
   }
 }
